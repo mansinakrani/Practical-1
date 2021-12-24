@@ -25,6 +25,7 @@
 
 .search-form{
     width: 330px;
+    display: flex;
 }
 
 .search-form .fa-search{
