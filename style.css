@@ -2,49 +2,25 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*section {
-    margin: auto;
-    vertical-align:middle;
-}*/
-
 /* Header */
 .h_nav {
     background-color: #2874f0;
 }
 
-/* to move all data in center 
-.container-fluid {
-    
-    display: flex;
-    align-items: center;
-}*/
+
+.text-white {
+    color: #fff;
+}
 
 .navbar-brand {
     padding-left: 30px;
 }
 
-.search-form{
-    width: 330px;
-    /*display: flex;
-    flex: 1; /* take up the rest of the remaining space */
-    /*box-sizing: inherit;*/
-}
-
-.search-form input {
-    width: 100%;
-}
-
-/*@media (max-width: 650px) {
-    .search-form {
-      order: 2 !important;
-      width: 100%;
-    }
-}*/
-
-.search-form .fa-search{
+.fa-search{
     color: #2874f0;
     font-size: 1.2em; /* In px = 18px , LARGE , 1.3 em */
-    margin-left: -50px;
+    margin-left: -30px;
+    padding: 6px;
 }
 
 .h_top_nav a{ 
@@ -54,12 +30,9 @@
 
 .h_top_nav .login-btn {
     background-color: #fff;
-    color: #2874f0;
-    padding: 0px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 15px;
-    padding-right: 15px;
+    color: #2874f0 !important;
+    padding: 7px 15px;
+    font-weight: 700;
     border-radius: 0px;
 }
 
@@ -77,14 +50,6 @@
 .s_category {
     padding: 10px;
     border-bottom: 1px solid #caccce;
-    /* to align horizontally
-    display: flex;
-    flex-wrap: wrap;*/
-    /* to move all data in center 
-    margin: auto;
-    vertical-align: middle;
-    display: -ms-flexbox;
-    justify-content: center;*/
 }
 
 /* Deals of the day SECTION */
@@ -101,16 +66,38 @@
 
 .d_s_content {
     cursor: pointer;
-    /*padding: 2%;
-    
-    flex-grow: 1;
-    flex-basis: 16%;
-
-    display: flex;*/ /* so child elements can use flexbox stuff too! */
+}
+.d_s_content img {
+    width: 64px;
+    height: 64px;
 }
 
-/*.s_deal_img {
-    width: 100%;
-    height: auto;
-    margin-top: 7px;
-}*/
+.timer {
+    width: 25px;
+}
+.d-img {
+    width: 100px;
+    height: 100px;
+}
+
+.brand {
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+}
+
+.discount {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+}
+
+.deal {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+}
