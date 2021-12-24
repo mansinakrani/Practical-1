@@ -25,8 +25,21 @@
 
 .search-form{
     width: 330px;
-    display: flex;
+    /*display: flex;
+    flex: 1; /* take up the rest of the remaining space */
+    /*box-sizing: inherit;*/
 }
+
+.search-form input {
+    width: 100%;
+}
+
+/*@media (max-width: 650px) {
+    .search-form {
+      order: 2 !important;
+      width: 100%;
+    }
+}*/
 
 .search-form .fa-search{
     color: #2874f0;
@@ -64,6 +77,9 @@
 .s_category {
     padding: 10px;
     border-bottom: 1px solid #caccce;
+    /* to align horizontally
+    display: flex;
+    flex-wrap: wrap;*/
     /* to move all data in center 
     margin: auto;
     vertical-align: middle;
@@ -85,6 +101,12 @@
 
 .d_s_content {
     cursor: pointer;
+    /*padding: 2%;
+    
+    flex-grow: 1;
+    flex-basis: 16%;
+
+    display: flex;*/ /* so child elements can use flexbox stuff too! */
 }
 
 /*.s_deal_img {
